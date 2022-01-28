@@ -18,8 +18,11 @@ class _LoginState extends State<Login> {
         child: SizedBox.expand(
           child: Stack(
             children: [
-              Image.asset(
-                'assets/img/bg.png',
+              Positioned(
+                bottom: 0.0,
+                child: Image.asset(
+                  'assets/img/bg.png',
+                ),
               ),
               SingleChildScrollView(
                 padding: EdgeInsets.only(top: 40),
