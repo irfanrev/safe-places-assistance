@@ -31,6 +31,9 @@ dependencies:
     sdk: flutter
   google_fonts: ^2.2.0
   get:
+  lottie: ^1.2.1
+  flutter_map: ^0.14.0
+  latlong: ^0.6.1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -63,6 +66,7 @@ flutter:
   assets:
     - assets/img/
     - assets/logo/
+    - assets/lottie/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
